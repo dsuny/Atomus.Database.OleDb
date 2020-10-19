@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Database.OleDb(dotNet)", "dotNet\Atomus.Database.OleDb(dotNet).csproj", "{35495E3B-0F33-4234-8A82-73CB753887C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C6970C0-A1C6-4738-8E02-6B559DDCA3E0}"
+	ProjectSection(SolutionItems) = preProject
+		src\OleDb.cs = src\OleDb.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Database.OleDb(dotNetCore)", "dotNetCore\Atomus.Database.OleDb(dotNetCore).csproj", "{9B9300AE-498C-48A8-B79A-301BC4F43372}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Database.OleDb(dotNetStandard)", "dotNetStandard\Atomus.Database.OleDb(dotNetStandard).csproj", "{D2601AFD-5A77-4135-92BD-8934ED5C6FFE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35495E3B-0F33-4234-8A82-73CB753887C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35495E3B-0F33-4234-8A82-73CB753887C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35495E3B-0F33-4234-8A82-73CB753887C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35495E3B-0F33-4234-8A82-73CB753887C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B9300AE-498C-48A8-B79A-301BC4F43372}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B9300AE-498C-48A8-B79A-301BC4F43372}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B9300AE-498C-48A8-B79A-301BC4F43372}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B9300AE-498C-48A8-B79A-301BC4F43372}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2601AFD-5A77-4135-92BD-8934ED5C6FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2601AFD-5A77-4135-92BD-8934ED5C6FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2601AFD-5A77-4135-92BD-8934ED5C6FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2601AFD-5A77-4135-92BD-8934ED5C6FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3DDFB77-5169-481A-8439-6AEB757C4E9C}
+	EndGlobalSection
+EndGlobal
